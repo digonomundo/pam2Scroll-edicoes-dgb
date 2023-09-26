@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo3"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dbz" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball Z"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/yellow"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dbgt" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball GT"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 1"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 2"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 3"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 4"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb5" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 5"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb6" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 6"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb7" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 7 "
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball é bem legal!"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView51"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/dgb51" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTitulo51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="30dp"
+                        android:text="Dragon Ball 51"
+                        android:textColor="@color/red"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txtDesc51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="20dp"
+                        android:text="Dragon Ball em edição inicial"
+                        android:textColor="@color/yellow"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtDesenvolvido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:textSize="15dp"
+                        android:text="@string/desenvolvido"
+                        android:textColor="@color/white"
+                        android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
