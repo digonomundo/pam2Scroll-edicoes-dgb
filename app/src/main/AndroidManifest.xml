@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pam2Scroll2">
         <activity
+            android:name=".actCreditos"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
